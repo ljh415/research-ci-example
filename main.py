@@ -1,5 +1,7 @@
 def helloworld(a):
-    print(f"Hello World! {a}!")  # djafklds
+    msg = f"Hello World! {a}!"
+    print(msg)  # djafklds
+    return msg
 
 
 if __name__ == "__main__":
